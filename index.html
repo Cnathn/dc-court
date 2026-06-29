@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dishwasher Court</title>
+  <meta name="description" content="Dishwasher Court is a funny puzzle game about loading a dishwasher like your dignity depends on it.">
+  <style>
+    :root{--bg1:#e6f6f4;--bg2:#d1edf2;--bg3:#f9e4c8;--card:rgba(255,255,255,.84);--ink:#132027;--muted:rgba(19,32,39,.72);--teal:#0f6170}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:radial-gradient(circle at top left,rgba(255,255,255,.65),transparent 34%),linear-gradient(180deg,var(--bg1),var(--bg2) 48%,var(--bg3));min-height:100vh}
+    .wrap{width:min(960px,calc(100vw - 32px));margin:0 auto;padding:28px 0 48px}.card{background:var(--card);border:1px solid rgba(14,70,78,.14);border-radius:28px;box-shadow:0 18px 40px rgba(16,34,38,.08);padding:28px}.eyebrow{margin:0;text-transform:uppercase;letter-spacing:.12em;font-weight:900;color:var(--teal);font-size:.8rem}.hero h1{margin:6px 0 12px;font-size:clamp(2.2rem,4vw,4.2rem);line-height:.98;letter-spacing:-.04em}.lede{margin:0;max-width:720px;font-size:1.15rem;line-height:1.6;color:var(--muted)}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border-radius:999px;text-decoration:none;font-weight:800}.primary{background:linear-gradient(135deg,#0d6b7a,#18b4c5);color:#fff}.secondary{background:rgba(255,255,255,.76);color:#0d3f4b;border:1px solid rgba(14,70,78,.14)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:18px}.grid .card h2{margin:0 0 10px;font-size:1.35rem}.grid .card p,.grid .card li{color:var(--muted);line-height:1.65} a{color:var(--teal);text-decoration-thickness:2px;text-underline-offset:2px}.footer{text-align:center;margin-top:20px;color:rgba(20,33,38,.58);font-weight:600}
+    @media (max-width:700px){.wrap{width:min(100vw - 20px,960px);padding-top:12px;padding-bottom:32px}.card{padding:20px;border-radius:22px}.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="card hero">
+      <p class="eyebrow">Dishwasher Court</p>
+      <h1>The dishwasher is loaded. The court is in session.</h1>
+      <p class="lede">Dishwasher Court is a playful puzzle game where every mug, pan, keyboard, and deeply questionable life choice must be fitted into the machine. Build a load, hit wash, and receive the court's verdict.</p>
+      <div class="actions">
+        <a class="button primary" href="support.html">Get Support</a>
+        <a class="button secondary" href="privacy.html">Privacy Policy</a>
+      </div>
+    </header>
+    <main class="grid">
+      <section class="card"><h2>What kind of game is it?</h2><p>It's a compact logic-and-layout puzzle game with a comedy voice. Every level gives you a dishwasher, a pile of items, and just enough space to make you doubt your choices.</p></section>
+      <section class="card"><h2>What makes it fun?</h2><ul><li>Tight spatial puzzles with rotating, stacking, and rack-specific rules</li><li>Absurd objects like phones, keyboards, statues, and other terrible ideas</li><li>Verdicts that turn every wash cycle into a tiny courtroom comedy</li></ul></section>
+      <section class="card"><h2>Who is it for?</h2><p>Anyone who likes smart puzzle games, household chaos, and the special feeling of being judged by a dishwasher.</p></section>
+      <section class="card"><h2>Useful links</h2><p><a href="privacy.html">Privacy Policy</a></p><p><a href="support.html">Support</a></p></section>
+    </main>
+    <div class="footer">© Dishwasher Court</div>
+  </div>
+</body>
+</html>
